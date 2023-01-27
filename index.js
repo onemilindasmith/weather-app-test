@@ -43,6 +43,7 @@
   axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemp);
 }
 
+
 {
   let apiKey = "b400ae3b711a616262d18b0ca2cbe78f";
   let apiUrl =
@@ -51,7 +52,7 @@
   function myTemp(response) {
     console.log(response.data);
     let temp = Math.round(response.data.main.temp);
-    let newTemp = document.querySelector("h1");
+    let newTemp = document.querySelector("#real-Temp");
     newTemp.innerHTML = `${temp}`;
   }
   let homeTemp = document.querySelector("#currentLoca");
