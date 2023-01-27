@@ -1,0 +1,61 @@
+.container {
+  border: 4px;
+  border-radius: 30px;
+  width: 500px;
+  border-style: solid;
+  color: gray;
+  margin: 0 auto;
+}
+
+.current {
+  background: orange;
+  color: white;
+  border: orange;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.temp {
+  color: orangered;
+}
+
+.tempb {
+  font-size: 30px;
+  color: orangered;
+  font-weight: 600;
+}
+
+.search {
+  border-radius: 20px;
+}
+
+.emoji {
+  border: 2px;
+  border-radius: 50px;
+  padding: 30px 0 30px 0;
+  border-style: solid;
+  border-color: gray;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+  display: block;
+  color: black;
+}
+
+.col-3 {
+  top: 10px;
+  margin-top: 20px;
+}
+
+.dates {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.currently {
+  display: block;
+  text-align: center;
+}
